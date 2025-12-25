@@ -1,22 +1,22 @@
 class Forb < Formula
   desc "CLI tool that shows all possible interpretations of any data input"
   homepage "https://github.com/mjukis-ab/formatorbit"
-  version "0.3.2"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.3.2/forb-v0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "190c3e9801f338ba52ab66f4ea09aa8345ba6c7fb51728584b7e7677c0d47842"
+      url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.4.0/forb-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "77e2a912bd8c257ca7113fb3dae30d4108f7678f8f958cdff04e4255365d9a3f"
     else
-      url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.3.2/forb-v0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "c78b7c4cfe5bb997fab0f0d3e8667d0426041871c2b723dd5d2e61d128b6117a"
+      url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.4.0/forb-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8e49599d124f4da87a7eec5b4bee2bb770215b0bc3cf0c92e81809918b8977ff"
     end
   end
 
   on_linux do
-    url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.3.2/forb-v0.3.2-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "993c44b8ec3801cad1af84f2b10aaf79eb494f9f1a59749bd40fe9d8b07a0328"
+    url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.4.0/forb-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "4292eebc4bf9bbef5ac8036bb3d4a080992cc0ac2c29664d7bba6987c5235cc1"
   end
 
   def install
