@@ -7,16 +7,16 @@ class Forb < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.10.2/forb-v0.10.2-aarch64-apple-darwin.tar.gz"
-      sha256 "ff32b7ed9bee73e50b18726ab0739612f03e8aeaebd13c83c15a6de8b74b1700"
+      sha256 "9acef8e8f21c6eb0c80875220b04f1cb1c970794035c88b38eaf4e95fc766729"
     else
       url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.10.2/forb-v0.10.2-x86_64-apple-darwin.tar.gz"
-      sha256 "c7bb707d533c39e54dc63606d1bd47f97dd4238acb0c132759a4454b8fa9729d"
+      sha256 "b5d877fbe8f96ef64827175f4eac14ff434cc5e9e8ec238abf230d2a05ddc0de"
     end
   end
 
   on_linux do
     url "https://github.com/mjukis-ab/formatorbit/releases/download/v0.10.2/forb-v0.10.2-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "a8f54028687f65476d3109609c80cf1c2804ce567b841ccb3468e27c6df7b626"
+    sha256 "de7e9fd5483ab7800ea6e5268384503b1dc8db191db2f03d2b0bd92b75d09e97"
   end
 
   def install
