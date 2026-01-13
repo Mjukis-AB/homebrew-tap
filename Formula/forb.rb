@@ -1,8 +1,8 @@
 class Forb < Formula
   desc "CLI tool that shows all possible interpretations of any data input"
   homepage "https://github.com/mjukis-ab/formatorbit"
-  url "https://github.com/mjukis-ab/formatorbit/archive/refs/tags/v0.10.5.tar.gz"
-  sha256 "463043986a507104d86c66aeaa764180a1cd86ae8b50c095fa8c94c4b706db4a"
+  url "https://github.com/mjukis-ab/formatorbit/archive/refs/tags/v0.10.6.tar.gz"
+  sha256 "2766b9cb3713ae4871d4d4d76784ec0226d6155a2f6f21db00f63eb80b2a0ba4"
   license "MIT"
 
   depends_on "rust" => :build
